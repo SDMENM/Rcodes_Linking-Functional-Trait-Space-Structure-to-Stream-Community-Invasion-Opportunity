@@ -14,13 +14,6 @@ install.packages(c("tidyverse", "readxl", "stringr", "sf", "geosphere",
                    "purrr", "mFD", "funrar", "betapart"))
 ```
 
-Additional figure or model scripts may load further packages. After running
-the workflow, save the exact R, operating-system and loaded-package versions:
-
-```r
-writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
-```
-
 ## Setup
 
 1. Download the repository and extract `Supplementary files.zip` into the
